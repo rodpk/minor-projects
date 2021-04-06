@@ -10,7 +10,7 @@ import br.com.alura.escola.academico.infra.aluno.RepositorioDeAlunosEmMemoria;
 
 public class MatricularAlunoViaLinhaDeComando {
     public static void main(String[] args) {
-        String nome = "Fulano da Silva";
+        String nome = "Fulana da Silva";
         String cpf = "123.456.789-00";
         String email = "fulano@gmail.com";
         PublicadorDeEventos publicador = new PublicadorDeEventos();
